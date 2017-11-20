@@ -1,0 +1,70 @@
+/*Selector globa*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Estilos de los selectores de etiqueta*/
+header{
+background:black;
+width: 100%;
+height: 100px;
+
+}
+
+/*Estilos del contenedor en General*/
+.container-trello{
+  background:#49BEB7;
+  height: 100%;
+  width: 100%;
+}
+
+
+.input-message
+{   
+   
+    padding: 5px;
+    margin: 5px 5px 10px;
+    width: 96%;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 1px;
+    display: inline-block;
+    border:transparent;
+    background-color: rgba(255,255,255,.20);
+    background: rgba(0,0,0,.1);
+}
+
+
+.board{
+    margin:0;
+    background:#7CDFFF;
+    height: 100%;
+    background: url(../assets/images/francia.jpg);
+}
+
+.lista-item{
+    
+    display: inline-block;
+}
+.box-container-board{
+    margin: 5px;
+    width: 300px;
+    background:white;
+    display: relative;
+    border-radius: 3px;
+}
+.btnGuardar{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius:5px;
+    border: none;
+    background: #00649F;
+    color: white;
+}
+.titulo{
+   width: 96%;
+   height:30px;
+}
